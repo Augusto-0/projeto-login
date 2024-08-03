@@ -18,14 +18,16 @@ Grandes (Monitores grandes): Acima de 1440px
 
 
     @media screen and (min-width:768px) and (max-width:992px) {
-        section#login {
-            width: 80vw;
-        }
-
+        
         body, html {
             background-image: linear-gradient(to top, #49a09d, #5f2c82);
         }
 
+        section#login {
+            width: 80vw;
+            height: 285px;
+        }
+        
         section#login > div#imagem {
             float: left;
             width: 30%;
@@ -44,14 +46,16 @@ Grandes (Monitores grandes): Acima de 1440px
 
 
 @media screen and (min-width: 992px){
-    section#login {
-        width: 955px;
-    }
-
+    
     body, html {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
-
+    
+    section#login {
+        width: 955px;
+        height: 355px;
+    }
+    
     section#login > div#imagem {
         float: right;
         width: 50%;
@@ -69,6 +73,7 @@ Grandes (Monitores grandes): Acima de 1440px
 
     div#formulario > p {
         font-size: 1.2em;
+        margin: 20px 0px;
     }
     
 }
